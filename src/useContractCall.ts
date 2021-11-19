@@ -1,5 +1,5 @@
-import { ChainCall } from './callsReducer'
-import { Falsy } from '../model/types'
+import { ChainCall } from './chainState/callsReducer'
+import { Falsy } from './model/types'
 import { Interface } from '@ethersproject/abi'
 import { useChainCalls } from './useChainCalls'
 import { useMemo } from 'react'

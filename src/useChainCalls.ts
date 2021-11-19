@@ -1,7 +1,7 @@
 import { useContext, useEffect, useMemo } from 'react'
 
-import { ChainCall } from './callsReducer'
-import { ChainStateContext } from './context'
+import { ChainCall } from './chainState/callsReducer'
+import { ChainStateContext } from './chainState/context'
 import { Falsy } from './model/types'
 
 export function useChainCalls(calls: (ChainCall | Falsy)[]) {
