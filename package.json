@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "tsdx watch",
+    "build": "NODE_ENV=production npx tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "tsdx build",

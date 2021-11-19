@@ -1,2 +1,11 @@
 .DS_Store
 node_modules
+build/
+coverage/
+cache/
+.nyc*
+*.log
+*.tar.gz
+*.tgz
+*.zip
+
